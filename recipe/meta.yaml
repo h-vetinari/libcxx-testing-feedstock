@@ -33,7 +33,7 @@ requirements:
     - clang-{{ cxx_compiler_version }}
     - make
     - pip
-    - libboost-devel
+    - libboost-devel <1.89
   {% if libcxx_major|int < 99 %}
   run_constrained:
     - libcxx {{ libcxx_major }}.*
