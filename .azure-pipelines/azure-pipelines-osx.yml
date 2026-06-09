@@ -64,6 +64,62 @@ jobs:
         build_workspace_dir: ~/miniforge3/conda-bld
         store_build_artifacts: false
         tools_install_dir: ~/miniforge3
+      osx_arm64_cxx_compiler_version19libcxx_major22:
+        CONFIG: osx_arm64_cxx_compiler_version19libcxx_major22
+        UPLOAD_PACKAGES: 'True'
+        VMIMAGE: macOS-15-arm64
+        build_workspace_dir: ~/miniforge3/conda-bld
+        store_build_artifacts: false
+        tools_install_dir: ~/miniforge3
+      osx_arm64_cxx_compiler_version19libcxx_major99:
+        CONFIG: osx_arm64_cxx_compiler_version19libcxx_major99
+        UPLOAD_PACKAGES: 'True'
+        VMIMAGE: macOS-15-arm64
+        build_workspace_dir: ~/miniforge3/conda-bld
+        store_build_artifacts: false
+        tools_install_dir: ~/miniforge3
+      osx_arm64_cxx_compiler_version20libcxx_major22:
+        CONFIG: osx_arm64_cxx_compiler_version20libcxx_major22
+        UPLOAD_PACKAGES: 'True'
+        VMIMAGE: macOS-15-arm64
+        build_workspace_dir: ~/miniforge3/conda-bld
+        store_build_artifacts: false
+        tools_install_dir: ~/miniforge3
+      osx_arm64_cxx_compiler_version20libcxx_major99:
+        CONFIG: osx_arm64_cxx_compiler_version20libcxx_major99
+        UPLOAD_PACKAGES: 'True'
+        VMIMAGE: macOS-15-arm64
+        build_workspace_dir: ~/miniforge3/conda-bld
+        store_build_artifacts: false
+        tools_install_dir: ~/miniforge3
+      osx_arm64_cxx_compiler_version21libcxx_major22:
+        CONFIG: osx_arm64_cxx_compiler_version21libcxx_major22
+        UPLOAD_PACKAGES: 'True'
+        VMIMAGE: macOS-15-arm64
+        build_workspace_dir: ~/miniforge3/conda-bld
+        store_build_artifacts: false
+        tools_install_dir: ~/miniforge3
+      osx_arm64_cxx_compiler_version21libcxx_major99:
+        CONFIG: osx_arm64_cxx_compiler_version21libcxx_major99
+        UPLOAD_PACKAGES: 'True'
+        VMIMAGE: macOS-15-arm64
+        build_workspace_dir: ~/miniforge3/conda-bld
+        store_build_artifacts: false
+        tools_install_dir: ~/miniforge3
+      osx_arm64_cxx_compiler_version22libcxx_major22:
+        CONFIG: osx_arm64_cxx_compiler_version22libcxx_major22
+        UPLOAD_PACKAGES: 'True'
+        VMIMAGE: macOS-15-arm64
+        build_workspace_dir: ~/miniforge3/conda-bld
+        store_build_artifacts: false
+        tools_install_dir: ~/miniforge3
+      osx_arm64_cxx_compiler_version22libcxx_major99:
+        CONFIG: osx_arm64_cxx_compiler_version22libcxx_major99
+        UPLOAD_PACKAGES: 'True'
+        VMIMAGE: macOS-15-arm64
+        build_workspace_dir: ~/miniforge3/conda-bld
+        store_build_artifacts: false
+        tools_install_dir: ~/miniforge3
   timeoutInMinutes: 360
   variables: {}
 
